@@ -59,7 +59,7 @@ main .section1 {
 main .section1 .img-hero {
     background-image: url(img-hero.png);
     width: 1360px;
-    height: 644px;
+    height: 544px;
     border-radius: 40px;
     padding: 100px;
     background-size: cover;
@@ -104,4 +104,290 @@ main .section1 button {
     color: #403F3D;
     margin-top: 40px;
     border: 0;
+}
+
+main .section2 {
+    margin-top: 100px;
+}
+
+main .section2 .center h3 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #403F3D;
+}
+
+main .section2 h2 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 60px;
+    text-align: center;
+    color: #403F3D;
+}
+
+main .section2 h2 span {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 60px;
+    text-align: center;
+    color: #B0907A;
+    font-style: italic;
+}
+
+main .section2 .center .p1 {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #403F3D;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+main .section2 .center .p2 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #403F3D;
+    margin-bottom: 40px;
+}
+
+main .section2 .center img {
+    width: 480px;
+    height: 480px;
+}
+
+main .section2 .center2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .section2 .center {
+    width: 480px;
+}
+
+main .section2 .center .line3 {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+
+main .section2 .center .line3 div {
+    width: 40px;
+    height: 4px;
+    border-radius: 100px;
+    background: #C1B6AD;
+
+}
+
+main .section2 .center .line3 .first {
+    width: 40px;
+    height: 4px;
+    border-radius: 100px;
+    background: #665F55;
+}
+
+main.section3 {
+    display: flex;
+    align-items: center;
+}
+
+main .section3 h2 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 60px;
+    color: #403F3D;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+main .section3 h2 span {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 60px;
+    color: #B0907A;
+    font-style: italic;
+}
+
+main .section3 .pictures {
+    display: flex;
+    gap: 40px;
+}
+
+main .section3 .pictures img {
+    margin-bottom: 40px;
+}
+
+main .section4 {
+    margin-top: 100px;
+    display: flex;
+}
+
+main .section4 .left {
+    padding-top: 144px;
+}
+
+main .section4 .left h3 {
+    font-family: Inter;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 60px;
+    color: #403F3D;
+}
+
+main .section4 .left h3 span {
+    font-family: Inter;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 60px;
+    color: #B0907A;
+    font-style: italic;
+}
+
+main .section4 .left p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    color: #403F3D;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+main .section4 .left .l_button {
+    width: 200px;
+    height: 64px;
+    border-radius: 100px;
+    border: 1px solid #665F55;
+    background: #E1D4C9;
+    margin-right: 20px;
+    padding: 12px;
+    display: flex;
+    gap: 8px;
+}
+
+main .section4 .left .r_button {
+    width: 200px;
+    height: 64px;
+    border-radius: 100px;
+    border: 1px solid #665F55;
+    background: #E1D4C9;
+    padding: 12px;
+    display: flex;
+    gap: 8px;
+}
+
+main .section4 .left .l_button .icon {
+    background-image: url(icon.png);
+    width: 36px;
+    height: 36px;
+}
+
+main .section4 .left .r_button .icon2 {
+    background-image: url(icon2.png);
+    width: 36px;
+    height: 36px;
+}
+
+main .section4 .left .buttons {
+    display: flex;
+}
+
+main .section4 .left .buttons .l_button h5 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 10px;
+    color: #403F3D;
+    text-align: start;
+}
+
+main .section4 .left .buttons .l_button h4 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+    color: #403F3D;
+}
+
+main .section4 .left .buttons .r_button h5 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 10px;
+    text-align: start;
+    color: #403F3D;
+}
+
+main .section4 .left .buttons .r_button h4 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+    color: #403F3D;
+}
+
+footer {
+    background: #665F55;
+    width: 1360px;
+    height: 450px;
+    border-radius: 40px;
+    margin-top: 100px;
+    display: flex;
+    gap: 100px;
+    margin-bottom: 40px;
+}
+
+footer .left {
+    margin: 100px;
+}
+
+footer .left h1 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 60px;
+    color: #E1D4C9;
+}
+
+footer .left h1 span {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 60px;
+    color: #B0907A;
+    font-style: italic;
+}
+
+footer.right {
+    display: flex;
+}
+
+footer .right p {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+    color: #E1D4C9;
+    display: inline;
+}
+
+footer .right h4 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 24px;
+    color: #E1D4C9;
+    margin-bottom: 40px;
+}
+
+footer .right {
+    margin-right: 100px;
+    margin-top: 132px;
+    margin-bottom: 132px;
+}
+
+footer .right div {
+    margin-bottom: 16px;
+}
+
+footer .left div {
+    margin-top: 40px;
+    display: flex;
+    gap: 12px;
 }
