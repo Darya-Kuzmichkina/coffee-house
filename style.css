@@ -46,7 +46,7 @@ header .menu .p {
 }
 
 header .menu .coffee-cup {
-    background-image: url(coffee-cup.png);
+    background-image: url(./imgs/coffee-cup.png);
     width: 20px;
     height: 20px;
 }
@@ -57,7 +57,7 @@ main .section1 {
 }
 
 main .section1 .img-hero {
-    background-image: url(img-hero.png);
+    background-image: url(./imgs/img-hero.png);
     width: 1360px;
     height: 544px;
     border-radius: 40px;
@@ -281,13 +281,13 @@ main .section4 .left .r_button {
 }
 
 main .section4 .left .l_button .icon {
-    background-image: url(icon.png);
+    background-image: url(./imgs/icon.png);
     width: 36px;
     height: 36px;
 }
 
 main .section4 .left .r_button .icon2 {
-    background-image: url(icon2.png);
+    background-image: url(./imgs/icon2.png);
     width: 36px;
     height: 36px;
 }
