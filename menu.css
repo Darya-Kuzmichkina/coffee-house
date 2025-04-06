@@ -5,8 +5,9 @@
 
 body {
     background: #E1D4C9;
-    width: 1360px;
+    max-width: 1360px;
     margin: auto;
+    padding: 0 40px;
 }
 
 header {
@@ -20,9 +21,9 @@ header {
 }
 
 header .head {
-    width: 1360px;
+    width: 100%;
     margin: auto;
-    padding: 10px;
+    padding: 10px 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,6 +51,10 @@ header .left_header img {
     display: block;
     width: 20px;
     height: 20px;
+}
+
+header .menu1 {
+    display: none;
 }
 
 main .section1 h1 {
@@ -125,15 +130,17 @@ main .section1 .button .right {
 }
 
 main .section1 .contener {
+    width: 100%;
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
+    justify-content: center;
     margin-top: 40px;
+    margin-left: 13px;
 }
 
 main .section1 .contener .item {
-    width: 310px;
-    height: 506px;
+    max-width: 310px;
     border-radius: 40px;
     border: 1px solid #C1B6AD;
     display: flex;
@@ -175,9 +182,17 @@ main .section1 .contener p {
     margin-bottom: 20px;
 }
 
+main .section1 .collapse {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    border: 1px solid #665F55;
+    display: none;
+}
+
 footer {
     background: #665F55;
-    width: 1360px;
+    max-width: 1360px;
     border-radius: 40px;
     margin-top: 100px;
     display: flex;
@@ -199,6 +214,7 @@ footer .left .socials div {
     width: 60px;
     height: 60px;
     border-radius: 100px;
+    margin-top: 40px;
     border: 1px solid #C1B6AD;
     display: flex;
     justify-content: center;
@@ -283,7 +299,108 @@ footer .right div {
 }
 
 footer .left div {
-    margin-top: 40px;
     display: flex;
     gap: 12px;
+}
+
+@media(max-width:1100px) {
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer .left {
+        margin-bottom: 0;
+        margin: 100px 60px 0;
+    }
+
+    footer .right {
+        margin-top: 0;
+        margin-left: 60px;
+    }
+}
+
+@media(max-width:800px) {
+    body {
+        padding: 0 28px;
+    }
+
+    header nav, header .left_header {
+        display: none;
+    }
+
+    header .menu1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main .section1 .contener {
+        margin-left: 0;
+    }
+
+    main .section1 h1 {
+        font-size: 45px;
+    }
+
+    main .section1 h1 span {
+        font-size: 45px;
+    }
+
+    footer .left h1 {
+        font-size: 45px;
+    }
+
+    footer .left h1 span {
+        font-size: 45px;
+    }
+}
+
+@media(max-width:700px) {
+
+    main .section1 .collapse {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    main .section1 .arrow {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width:520px) {
+    body {
+        padding: 0 16px;
+    }
+
+    main .section1 h1 {
+        font-size: 32px;
+    }
+
+    main .section1 h1 span {
+        font-size: 32px;
+    }
+
+    footer {
+        gap: 40px;
+    }
+
+    footer .left h1 {
+        font-size: 32px;
+    }
+
+    footer .left h1 span {
+        font-size: 32px;
+    }
+
+    footer .right {
+        margin: 0 16px 60px;
+    }
+
+    footer .left {
+        margin: 60px 16px 0;
+    }
 }
