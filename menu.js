@@ -158,7 +158,7 @@ const dessertBtn = document.querySelector('#dessert');
 const modal = document.querySelector('.modal');
 const btnClose = document.querySelector('.modal .close');
 const containerDrink = document.querySelector(".containerDrink");
-const btnReturn = document.querySelector('.arrow .collapse');
+const allArr = ['coffee', 'tea', 'dessert'];
 
 window.addEventListener('click', (event) => {
   if (event.target === modal) {
@@ -166,11 +166,10 @@ window.addEventListener('click', (event) => {
   }
 });
 btnClose.addEventListener('click', () => modal.style.display = 'none');
-const allArr = ['coffee', 'tea', 'dessert'];
 
 const showRes = (params) => {
   containerDrink.innerHTML = ``;
-  modal.style.display = 'none'
+  modal.style.display = 'none';
   const ResultFilter = arrItems.filter((el) => (params.includes(el.type) ? true : false));
 
   ResultFilter.forEach((el) => {
